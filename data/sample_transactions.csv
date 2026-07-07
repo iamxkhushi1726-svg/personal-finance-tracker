@@ -1,0 +1,21 @@
+date,description,category,amount,type
+2026-05-01,Salary Credit,Income,45000,income
+2026-05-02,Zomato Order,Food,450,expense
+2026-05-03,Metro Card Recharge,Transport,200,expense
+2026-05-04,Netflix Subscription,Entertainment,499,expense
+2026-05-05,Grocery Shopping,Food,1200,expense
+2026-05-07,Electricity Bill,Utilities,800,expense
+2026-05-08,Online Course,Education,1999,expense
+2026-05-10,Freelance Payment,Income,8000,income
+2026-05-11,Swiggy Order,Food,380,expense
+2026-05-12,Gym Membership,Health,999,expense
+2026-05-14,Amazon Purchase,Shopping,2300,expense
+2026-05-15,Mobile Recharge,Utilities,299,expense
+2026-05-17,Coffee Shop,Food,220,expense
+2026-05-18,Uber Ride,Transport,350,expense
+2026-05-20,Book Purchase,Education,450,expense
+2026-05-22,Medical Checkup,Health,500,expense
+2026-05-24,Restaurant Dinner,Food,1800,expense
+2026-05-25,Internet Bill,Utilities,699,expense
+2026-05-27,Movie Tickets,Entertainment,600,expense
+2026-05-30,Savings Transfer,Savings,5000,expense
