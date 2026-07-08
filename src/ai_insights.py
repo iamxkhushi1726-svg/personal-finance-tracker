@@ -44,8 +44,9 @@ INSIGHTS_PROMPT = PromptTemplate(
 
 
 def generate_insights(summary: dict, category_breakdown) -> str:
-    """Generate AI financial insights using Groq Llama 3."""
+    """Generate AI financial insights using Groq Llama model."""
     api_key = os.getenv("GROQ_API_KEY")
+
     if not api_key:
         return "GROQ_API_KEY not set. Add it to your .env file."
 
@@ -56,10 +57,12 @@ def generate_insights(summary: dict, category_breakdown) -> str:
 
     llm = ChatGroq(
         groq_api_key=api_key,
-        model_name="llama3-8b-8192",
+        model_name="llama-3.1-8b-instant",
         temperature=0.4,
     )
+
     chain = LLMChain(llm=llm, prompt=INSIGHTS_PROMPT)
+
     return chain.run(
         date_range=summary["date_range"],
         total_income=summary["total_income"],

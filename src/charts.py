@@ -1,7 +1,7 @@
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
-from processor import CATEGORY_COLORS
+from src.processor import CATEGORY_COLORS
 
 THEME = "plotly_dark"
 
