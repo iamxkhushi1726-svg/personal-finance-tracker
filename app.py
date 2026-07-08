@@ -32,6 +32,7 @@ st.markdown(
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+    
     /* BASE STRUCTURAL THEME IMMUTABILITY */
     html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
         background-color: #FFFDF9 !important;
