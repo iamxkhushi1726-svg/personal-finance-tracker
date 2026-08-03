@@ -1,6 +1,6 @@
 # 💰 Personal Finance Tracker + AI Insights
 
-> Project 10/100 · Phase 1 Complete · Building a strong GitHub portfolio from scratch.
+> Project 10 · Building a Personal Finance Tracker with AI Insights
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://iamxkhushi1726-svg-personal-finance-tracker-app-dquz6d.streamlit.app/)
 
